@@ -23,7 +23,7 @@ BEGIN;
 
   CREATE TABLE working_schedule (
     schedule_id SERIAL PRIMARY KEY,
-    week_day INTEGER NOT NULL,
+    week_day VARCHAR(10) NOT NULL,
     start_hr VARCHAR(100) NOT NULL,
     end_hr VARCHAR(100) NOT NULL
   );
@@ -35,6 +35,6 @@ BEGIN;
     VALUES ('20191124', '0900', 'ghj@g.com ', 'Itay', '0544791675', 1);
 
   INSERT INTO working_schedule (week_day, start_hr, end_hr)
-    VALUES (0, '0900', '2100');
+    VALUES ('0', '0900', '2100');
 
 COMMIT;

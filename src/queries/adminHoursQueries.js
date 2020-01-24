@@ -10,11 +10,12 @@ const getallhours = day => {
 const modifyworkingday = data => {
   const values = data.list
     .reduce((acc, row) => {
-      return (acc += `('${row.day}',' ${row.start_time}', '${row.end_time}'),`);
+      return (acc += `('${row.week_day}',' ${row.start_hr}', '${row.end_hr}'),`);
     }, "")
     .slice(0, -1);
+  console.log(values);
   const result = databaseConnection
-    .query(`DELETE FROM working_schedule WHERE week_day=$1;`, [data.day])
+    .query(`DELETE FROM working_schedule WHERE week_day=$1;`, [data.week_day])
     .catch(err => console.log(err));
   if (data.list.length) {
     return databaseConnection.query(
