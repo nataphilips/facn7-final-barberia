@@ -7,8 +7,8 @@
 6 silly lifecycle Barberia@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle Barberia@1.0.0~start: Barberia@1.0.0
 8 verbose lifecycle Barberia@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle Barberia@1.0.0~start: PATH: /usr/share/npm/bin/node-gyp-bin:/home/natalia/Desktop/Bootcamp/week-11/Barberia/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-10 verbose lifecycle Barberia@1.0.0~start: CWD: /home/natalia/Desktop/Bootcamp/week-11/Barberia
+9 verbose lifecycle Barberia@1.0.0~start: PATH: /usr/share/npm/bin/node-gyp-bin:/home/natalia/Desktop/development/facn7-clones/facn7-final-barberia/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle Barberia@1.0.0~start: CWD: /home/natalia/Desktop/development/facn7-clones/facn7-final-barberia
 11 silly lifecycle Barberia@1.0.0~start: Args: [ '-c', 'node index.js' ]
 12 silly lifecycle Barberia@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle Barberia@1.0.0~start: Failed to exec start script
@@ -23,8 +23,8 @@
 14 verbose stack     at maybeClose (internal/child_process.js:925:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
 15 verbose pkgid Barberia@1.0.0
-16 verbose cwd /home/natalia/Desktop/Bootcamp/week-11/Barberia
-17 error Linux 5.0.0-36-generic
+16 verbose cwd /home/natalia/Desktop/development/facn7-clones/facn7-final-barberia
+17 error Linux 5.0.0-37-generic
 18 error argv "/usr/bin/node" "/usr/bin/npm" "start"
 19 error node v8.10.0
 20 error npm  v3.5.2
