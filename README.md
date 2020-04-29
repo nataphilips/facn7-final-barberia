@@ -2,7 +2,7 @@
 ## A group React project for Founders and Coders Nazareth
 Appointment booking system for a small barbershop 
 
-Our project is hosted [Here](https://barberiact.herokuapp.com/)
+Our project is hosted [Here](https://facn7-barberia.herokuapp.com/)
 
 ### `how to install`
 
